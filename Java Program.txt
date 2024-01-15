@@ -1,0 +1,17 @@
+package com.example.lib;
+import java.util.*;
+public class MyClass {
+    public static void main(String[] args){
+
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter No. 1 here : ");
+        int a = s.nextInt();
+        System.out.println("Enter No. 2 here: ");
+        int b = s.nextInt();
+        if (a>=b) {
+            System.out.println(a+" is bigger than "+b);
+        }else{
+            System.out.println(b+" is bigger than "+a);
+        }
+    }
+}
