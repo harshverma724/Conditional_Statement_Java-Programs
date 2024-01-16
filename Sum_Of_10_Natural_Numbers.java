@@ -1,4 +1,4 @@
-public class java_programs {
+public class Sum_Of_10_Natural_Numbers {
     public static void main(String[] args) {
         // sum of first 10 natural numbers using while and for loop.
         // Using while loop
